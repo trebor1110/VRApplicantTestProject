@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+#desktop-menu  {
+    width: 100%;
+    height: 75px;
+    background-color: #010101;
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    transition: all 0.3s;
+
+    .container-fluid .navbar-header img {
+        margin-top: 15px;
+        margin-right: 65px;
+    }
+
+    .container-fluid .nav.navbar-nav {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 240px;
+        
+    }
+}
+
+.header {
+    left: 0;
+    top: 0;
+    height: 53vw;
+    background: url(http://www.verscontabilidade.com.br/wp-content/uploads/2016/04/coins-wallpaper-44244-45359-hd-wallpapers.jpg) center top no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    -webkit-transition: all .75s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition: all .75s;
+    transition-timing-function: ease-in-out;
+
+    .header-container {
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 30vw;
+      padding-bottom: 2px;
+      z-index: 1;
+
+        #headline span {
+          font-family: "Playfair Display",serif;
+          display: block;
+          font-size: 2.083333vw;
+          font-weight: 400;
+          top: 0;
+          text-shadow: 0 0 8px #000;
+        }
+
+        #headline #first-word {
+          margin-right: 166px;
+          margin-bottom: -33px;
+        }
+
+        #headline #second-word {
+          font-size: 6vw;
+        }
+
+        #headline #third-line {
+          top: 6.5vw;
+          margin-left: 65px;
+          margin-top: -10px;
+        }
+    }
+
+    .subheader-container {
+      font-size: 32.2px;
+      color: #fff;
+      margin-bottom: 10px;
+      width: 100%;
+      margin: 0 auto;
+      position: absolute;
+      bottom: 8vw;
+      padding-bottom: 2px;
+      z-index: 1;
+
+        .sub-headline {
+          font-family: sans-serif;
+          font-weight: 900;
+          text-transform: uppercase;
+        }
+    }
+}
+
+.futurework {
+  -webkit-transition: all 1.5s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition: all .75s;
+  transition-timing-function: ease-in-out;
+  left: 0;
+  position: relative;
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+
+  #future {
+      .description {
+          margin: 0 auto;
+          text-align: center;
+          width: 100%;
+          max-width: 40vw;
+
+          #title {
+            color: #99cc00;
+            font-size: 34px;
+            letter-spacing: -1px;
+            font-weight: bold;
+            text-transform: uppercase;
+          }
+      }
+  }
+
+}
+
+@media (max-width: 1279px) and (min-width: 640px) {
+   .header .header-container #headline #first-word {
+          margin-right: 141px;
+          margin-bottom: -23px;
+      }
+}
+
+@media (max-width: 390px) {
+      #desktop-menu .container-fluid .nav.navbar-nav {
+        display:none;
+      }
+      .navbar-toggle {
+        display:inherit;
+      }
+
+      .header {
+        height: 221.344vw;
+        background: url(http://www.verscontabilidade.com.br/wp-content/uploads/2016/04/coins-wallpaper-44244-45359-hd-wallpapers.jpg) center top no-repeat;
+        background-size: cover;
+      }
+
+      .futurework #future {
+          .description {
+            max-width: 70vw !important;
+          }
+
+          .btn {
+            margin-right: 0px !important;
+          }
+      }
+
+      .left-panel {
+        width: 100vw !important;
+        display: block !important;
+
+        .predictive {
+              margin: -47px 0 0 175px !important;
+        }
+
+        .download {
+          font-size: 4.5625vw !important;
+        }
+
+        .paragraph {
+          text-align: justify;
+          padding: 20px;
+        }
+      }
+
+      .right-panel {
+        width: 100vw !important;
+        display: block !important;
+        padding-top: 20vw;
+        padding-bottom: 10vw;
+      }
+}
+
+@media (max-width:640px) {
+  .header {
+    height: 221.344vw;
+    background: url(https://thumbs.dreamstime.com/z/financial-background-blur-numbers-digitally-generated-image-47195212.jpg) center top no-repeat;
+    background-size: cover;
+
+    .subheader-container  {
+        bottom: 1vw !important;
+        }
+
+        .sub-headline {
+          font-size: 20px;
+        }
+    }
+
+    .header-container {
+      bottom: 173vw;
+    }
+
+    .futurework #future {
+          .description {
+            max-width: 76vw !important;
+          }
+      }
+
+    #headline #first-word {
+        font-size: 4vw;
+        display: inline-block;
+        margin-right: 70px !important;
+    }
+
+    #headline #second-word {
+        font-size: 11vw !important;
+        margin-top: -15px !important;
+    }
+
+    #headline #third-line {
+        font-size: 4vw;
+        margin-top: -4px !important;
+        margin-left: 38px !important;
+    }
+
+    .futurework #future .description {
+        max-width: 76vw !important;
+    }
+}
