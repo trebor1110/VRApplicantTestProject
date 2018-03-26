@@ -70,8 +70,8 @@ gulp.task('html', function(){
 });
 
 // ** build task ** //
-gulp.task('build', function() {
-  gulp.start(['bower', 'icons', 'sass', 'scripts', 'html', ]);
+gulp.task('build', ['bower'], function() {
+  gulp.start(['icons', 'sass', 'scripts', 'html']);
 });
 
 // ** browser sync task ** //
