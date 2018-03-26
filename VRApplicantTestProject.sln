@@ -11,6 +11,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRApplicantTestProject_Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRApplicationTestProjectMVC.WebAPI", "VRApplicationTestProjectMVC.WebAPI\VRApplicationTestProjectMVC.WebAPI.csproj", "{72F90844-9805-49AD-8220-74C79E246746}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AngularSPA", "AngularSPA", "{FF6D0162-60B1-47B1-AF20-6F898C1FCDEE}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\.gitignore = ..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\.gitignore
+		..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\bower.json = ..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\bower.json
+		..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\gulpfile.js = ..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\gulpfile.js
+		..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\package-lock.json = ..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\package-lock.json
+		..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\package.json = ..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\package.json
+		..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\scripts.json = ..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\scripts.json
+		..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\styles.json = ..\..\..\Downloads\gulp-with-scss-master\VRApplicantTest_AngularJS\styles.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
